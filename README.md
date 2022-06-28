@@ -12,15 +12,33 @@ Crear tu propia plantilla personalizada utilizando cookiecutter.
 - [git](https://git-scm.com/) >= 2.x
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0:
     Esto puede ser instalado con `pip` o `conda` dependiendo cómo tú manejas tus paquetes de Python:
+    
+## Instalación
+Ve al directorio donde quieres crear el proyecto y crea un entorno virtual
+
+``` bash
+python3 -m venv .env
+```
+Activa el entorno virtual
+
+``` bash
+source .env/bin/activate
+```
+Installa cookiecutter
 
 ``` bash
 pip install cookiecutter
 ```
-
 o
 
 ``` bash
 conda install -c conda-forge cookiecutter
+
+```
+Use esta plantilla para inicializar su proyecto
+
+``` bash
+cookiecutter https://github.com/cchnoe/coockiecutter_data_science.git
 ```
 
 ## Crear un nuevo proyecto
