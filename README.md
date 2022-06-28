@@ -1,4 +1,4 @@
-# Cookiecuter Personal Platzi
+# Cookiecuter Data Science
 
 <!-- badges: start -->
 
@@ -28,9 +28,9 @@ conda install -c conda-forge cookiecutter
 En el directorio en el que quieras guardar tu proyecto generado:
 
 ```bash
-cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+python3 -m https://github.com/cchnoe/coockiecutter_data_science --checkout cookiecutter-ds
 ```
-
+cookiecutter https://github.com/cchnoe/coockiecutter_data_science.git
 
 ## Estructura de directorios y archivos resultantes
 
