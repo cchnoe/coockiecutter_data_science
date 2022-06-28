@@ -35,20 +35,14 @@ o
 conda install -c conda-forge cookiecutter
 
 ```
-Use esta plantilla para inicializar su proyecto
+
+## Crear un nuevo proyecto
+
+En el directorio en el que creaste guarda tu proyecto generandolo con:
 
 ``` bash
 cookiecutter https://github.com/cchnoe/coockiecutter_data_science.git
 ```
-
-## Crear un nuevo proyecto
-
-En el directorio en el que quieras guardar tu proyecto generado:
-
-```bash
-python3 -m https://github.com/cchnoe/coockiecutter_data_science --checkout cookiecutter-ds
-```
-cookiecutter https://github.com/cchnoe/coockiecutter_data_science.git
 
 ## Estructura de directorios y archivos resultantes
 
